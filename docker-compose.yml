@@ -1,7 +1,6 @@
 ﻿version: '3.9'
 
 services:
-  cpumin:
+  codeserver:
     build:
-      context: https://github.com/linuxserver/docker-code-server#master
-    restart: on-failure
+      context: 'https://github.com/linuxserver/docker-code-server.git#master'
