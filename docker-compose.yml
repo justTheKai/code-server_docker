@@ -3,5 +3,5 @@
 services:
   cpumin:
     build:
-      context: .
+      context: https://github.com/linuxserver/docker-code-server#master
     restart: on-failure
